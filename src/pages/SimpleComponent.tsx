@@ -5,10 +5,10 @@ const SimpleComponent = () => {
     <div className="flex-center bg-gray-200">
       <div className="flex justify-around items-center bg-white rounded-full w-96">
         <div className="flex-center flex-1 p-5 bg-blue-800 rounded-full text-white">
-          <span>Commissions</span>
+          <span>Item 1</span>
         </div>
         <div className="flex-center flex-1 p-5">
-          <span>Reserves</span>
+          <span>Item 2</span>
         </div>
       </div>
     </div>
