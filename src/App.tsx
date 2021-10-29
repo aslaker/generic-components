@@ -27,7 +27,7 @@ function App() {
       </Route>
       <main className="h-full w-full">
         <Route path="/simple-component">
-          <SimpleComponent />
+          <SimpleComponent toggleItems={["Item 1", "Item 2", "Item 3"]} />
         </Route>
         <Route path="/complex-component">
           <ComplexComponent />
